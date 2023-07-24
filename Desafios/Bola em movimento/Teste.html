@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bola</title>
+<style>
+    
+        #bola{
+            background-color: blue;
+            width: 100px;
+            height: 100px;
+            margin: 10px auto;
+            border-radius: 50%;
+            box-shadow: inset 10px 10px 10px 20px rgba(32, 154, 85, 0.459);
+            animation: float 1s ease-in-out infinite;
+        }
+        @keyframes float{
+            0%{
+                transform: translateY(0);
+            }
+            50%{
+                transform: translateY(-25px);
+            }
+            100%{
+                transform: translateY(0);
+            }
+        }
+</style>
+</head>
+<body>
+
+<footer>
+    <p>Desenvolvido por Matheus Neves</p>
+</footer>
+<div id="bola"></div>
+</body>
+</html>
